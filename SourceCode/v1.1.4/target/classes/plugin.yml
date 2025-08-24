@@ -1,0 +1,21 @@
+name: ServerCalibrate
+version: v1.1.4
+main: com.example.minecraftplugin.MinecraftPlugin
+description: A plugin for server calibration and player verification
+authors: [Your Name]
+website: https://example.com
+
+commands:
+  scset:
+    description: 设置玩家密码
+    usage: /<command> <用户名> <密码>
+    permission: servercalibrate.scset
+    permission-message: 你没有权限执行此命令!
+  sc:
+    description: 输入密码进行验证
+    usage: /<command> <密码>
+
+permissions:
+  servercalibrate.scset:
+    description: 允许设置玩家密码
+    default: op

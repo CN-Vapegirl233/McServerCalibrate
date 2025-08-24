@@ -1,0 +1,7 @@
+com\example\minecraftplugin\MinecraftPlugin$ScCommandExecutor.class
+com\example\minecraftplugin\EncryptionUtil.class
+com\example\minecraftplugin\MinecraftPlugin$ScSetCommandExecutor.class
+com\example\minecraftplugin\Obfuscation.class
+com\example\minecraftplugin\MinecraftPlugin$ScSetTabCompleter.class
+com\example\minecraftplugin\MinecraftPlugin.class
+com\example\minecraftplugin\MinecraftPlugin$1.class
