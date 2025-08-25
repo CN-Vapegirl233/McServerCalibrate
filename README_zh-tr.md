@@ -6,7 +6,7 @@
 
 
 
-[**简体中文**](https://github.com/cn-vapegirl233/mcservercalibrate/readme.md)  [繁體中文（使用機翻）](https://github.com/cn-vapegirl233/mcservercalibrate/readme_zh-tr.md/)  [English(Use machine translation)](https://github.com/cn-vapegirl233/mcservercalibrate/readme_en.md)
+[**简体中文**](https://github.com/CN-Vapegirl233/McServerCalibrate/blob/main/README.md)  [**繁體中文（使用機翻）**](https://github.com/CN-Vapegirl233/McServerCalibrate/blob/main/README_zh-tr.md)  [**English(Use machine translation)**](https://github.com/CN-Vapegirl233/McServerCalibrate/blob/main/README_en.md)
 
 
 
