@@ -1,0 +1,20 @@
+# English language file
+messages:
+  verification_required: "Please enter password to verify: /sc <password>"
+  verification_success: "Verification successful!"
+  verification_timeout: "Verification timed out! Please rejoin the server and complete verification within the specified time."
+  incorrect_password: "Incorrect password! Remaining attempts: {remaining}"
+  too_many_attempts: "Too many incorrect attempts, please try again later!"
+  banned: "You have been permanently banned for too many incorrect password attempts"
+  no_permission: "You do not have permission to execute this command!"
+  command_usage_sc: "/sc <password>"
+  command_usage_scset: "/scset <username> <password>"
+  command_usage_scl: "/scl <language> - Available languages: zh-cn, zh-tr, en"
+  password_set: "Password for player {player} has been set!"
+  no_password_kick: |-
+    {server} Player Verification
+    
+    Hello player {player}, you cannot enter the server because you have not been added a password by the administrator.
+    
+    Administrator QQ: {qq}
+    Administrator Email: {email}

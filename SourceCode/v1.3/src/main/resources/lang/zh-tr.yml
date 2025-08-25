@@ -1,0 +1,20 @@
+# 繁體中文語言文件
+messages:
+  verification_required: "請輸入密碼進行驗證: /sc <密碼>"
+  verification_success: "驗證成功!"
+  verification_timeout: "驗證超時! 請重新加入伺服器並在規定時間內完成驗證。"
+  incorrect_password: "密碼錯誤! 剩餘嘗試次數: {remaining}"
+  too_many_attempts: "密碼錯誤次數過多，請稍後再試!"
+  banned: "你已被永久封禁，原因: 密碼錯誤次數過多"
+  no_permission: "你沒有權限執行此命令!"
+  command_usage_sc: "/sc <密碼>"
+  command_usage_scset: "/scset <用戶名> <密碼>"
+  command_usage_scl: "/scl <語言> - 可用語言: zh-cn, zh-tr, en"
+  password_set: "已設置玩家 {player} 的密碼!"
+  no_password_kick: |-
+    {server} 玩家驗證
+    
+    你好，玩家{player}，由於你未被管理員添加密碼，所以無法進入伺服器。
+    
+    管理員聯繫qq: {qq}
+    管理員聯繫郵箱: {email}

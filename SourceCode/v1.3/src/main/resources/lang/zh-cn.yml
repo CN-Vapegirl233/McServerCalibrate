@@ -1,0 +1,20 @@
+# 简体中文语言文件
+messages:
+  verification_required: "请输入密码进行验证: /sc <密码>"
+  verification_success: "验证成功!"
+  verification_timeout: "验证超时! 请重新加入服务器并在规定时间内完成验证。"
+  incorrect_password: "密码错误! 剩余尝试次数: {remaining}"
+  too_many_attempts: "密码错误次数过多，请稍后再试!"
+  banned: "你已被永久封禁，原因: 密码错误次数过多"
+  no_permission: "你没有权限执行此命令!"
+  command_usage_sc: "/sc <密码>"
+  command_usage_scset: "/scset <用户名> <密码>"
+  command_usage_scl: "/scl <语言> - 可用语言: zh-cn, zh-tr, en"
+  password_set: "已设置玩家 {player} 的密码!"
+  no_password_kick: |-
+    {server} 玩家验证
+    
+    你好，玩家{player}，由于你未被管理员添加密码，所以无法进入服务器。
+    
+    管理员联系qq: {qq}
+    管理员联系邮箱: {email}

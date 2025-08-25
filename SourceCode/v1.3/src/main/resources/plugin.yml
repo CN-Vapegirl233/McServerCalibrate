@@ -1,0 +1,35 @@
+name: ServerCalibrate
+version: 1.3
+main: com.example.minecraftplugin.MinecraftPlugin
+description: A plugin for server calibration and player verification
+authors: [Your Name]
+website: https://example.com
+
+commands:
+  scset:
+    description: 设置玩家密码
+    usage: /<command> <用户名> <密码>
+    permission: servercalibrate.scset
+    permission-message: 你没有权限执行此命令!
+  sc:
+    description: 输入密码进行验证
+    usage: /<command> <密码>
+  serverscl:
+    description: 设置服务器默认语言
+    usage: '/<command> <语言> - 可用语言: zh-cn, zh-tr, en'
+    permission: servercalibrate.serverscl
+    permission-message: 你没有权限执行此命令!
+  playerscl:
+    description: 设置个人语言
+    usage: '/<command> <语言> - 可用语言: zh-cn, zh-tr, en'
+
+permissions:
+  servercalibrate.scset:
+    description: 允许设置玩家密码
+    default: op
+  servercalibrate.serverscl:
+    description: 允许设置服务器默认语言
+    default: op
+  servercalibrate.scl:
+    description: 允许切换语言
+    default: true
